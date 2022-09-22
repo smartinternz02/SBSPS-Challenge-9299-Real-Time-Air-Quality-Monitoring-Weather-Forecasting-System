@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <center>
+        <h1>AIR POLLUTION RESULT</h1>
+        {%if data ==0%}
+        <h1>GOOD</h1>
+        <img src="static/good.jpeg">
+        {%elif data ==1%}
+        <h1>MODERATE</h1>
+        <img src="static/moderate.jpeg">
+        {%elif data ==2%}
+        <h1>POOR</h1>
+        <img src="static/poor.jpeg">
+        {%elif data ==3%}
+        <h1>SATISFACTORY</h1>
+        <img src="static/satisfactory.jpeg">
+        {%elif data ==4%}
+        <h1>VERY POOR</h1>
+        <img src="static/severe.jpg">
+        {%else%}
+        <h1>SEVERE</h1>
+        <img src="static/very poor.jpeg">
+        {%endif%}
+        <br><br>        
+        <a href='/'>Go back to home page</a>
+    </center>
+    </body>
+</html>

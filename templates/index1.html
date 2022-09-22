@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<TITLE>
+    AIR POLLUTION PREDICTION
+</TITLE>
+<head fontface="algerian">
+<H1>
+<CENTER><i> AIR POLLUTION PRDICTION</i></CENTER>
+</H1>
+<style>
+ body{background-image: url("static/air.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;}
+</style>
+</head>
+<body   >
+    <form  action='/predict'method="POST">
+        <center>
+        <TABLE BORDER="0">
+        <tr><td>PM2.5:</td><td><input type="text" name='b'></td></tr><br>
+        <tr><td>PM10:</td><td><input type="text" name='c'></td></tr><br>
+        <tr><td>NO:</td><td><input type="text" name='d'></td></tr>
+        <tr><td>NO2:</td><td><input type="text" name='e'></td></tr>
+        <tr><td>NOx:</td><td><input type="text" name='f'></td></tr>
+        <tr><td>NH3:</td><td><input type="text" name='g'></td></tr>
+        <tr><td>CO:</td><td><input type="text" name='h'></td></tr>
+        <tr><td>SO2:</td><td><input type="text" name='i'></td></tr>
+        <tr><td>O3:</td><td><input type="text" name='j'></td></tr>
+        <tr><td>Benzene:</td><td><input type="text" name='k'></td></tr>
+        <tr><td>Toluene:</td><td><input type="text" name='l'></td></tr>
+        <tr><td>Xylene:</td><td><input type="text" name='m'></td></tr>
+        <tr><td>AQI:</td><td><input type="text" name='n'></td></tr>
+        </table><br>
+        <input type="submit"  value="predict">
+        </form>
+    </center>
+    </body>
+</html>
